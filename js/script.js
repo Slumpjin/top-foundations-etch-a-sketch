@@ -11,3 +11,7 @@ for (let i = 0; i < 16; i++) {
     }
     canvasDiv.appendChild(gridRow);
 }
+
+canvasDiv.addEventListener('mouseover', (e) => {
+    e.target.style.backgroundColor = 'black';
+});
